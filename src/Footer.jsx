@@ -14,10 +14,10 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold mb-3">SOCIAL</h3>
           <div className="flex gap-5 text-2xl">
-          <a href="#" className="hover:text-blue-500">
+          <a href="https://www.linkedin.com/in/samvrutha-jayarajan-b3497236a" className="hover:text-blue-500">
               <FaLinkedin />
           </a>
-          <a href="#" className="hover:text-gray-400">
+          <a href="https://github.com/samvruthajayarajan" className="hover:text-gray-400">
               <FaGithub />
           </a>
            
