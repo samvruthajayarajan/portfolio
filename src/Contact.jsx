@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
   return (
      <>
-    <div id='contact' className="bg-gradient-to-r from-black via-blue-900 to-cyan-800 text-slate-300h-screen w-screen flex flex-col justify-center items-center bg-no-repeat bg-cover text-center">
+    <div id='contact' className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white py-16 px-6 w-screen flex flex-col justify-center items-center bg-no-repeat bg-cover text-center">
          <h1 className="font-semibold text-4xl text-slate-100">CONTACT</h1>
       <div className="mt-4">
         <h4 className="font-normal text-slate-100">
@@ -20,11 +20,6 @@ const Contact = () => {
       <label className="block text-white font-thin mb-2 text-left">Email</label>
       <input id="email"type="email"placeholder="Enter your email"className="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-black-500"/>
     </div>
-
-    {/* <div className="mb-4">
-      <label className="block text-white font-thin mb-2 text-left">Contact Number</label>
-      <input id="contact"type="tel"placeholder="Enter your contact number"className="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-black-500"/>
-    </div> */}
 
     <div className="mb-4">
       <label className="block text-white font-thin mb-2 text-left">Message</label>

@@ -8,20 +8,18 @@ const Footer = () => {
         <div>
           <h2 className="text-xl font-bold mb-3">SAMVRUTHA JAYARAJAN</h2>
           <p className="text-gray-400 max-w-md">
-                    I'm a Web developer who turns ideas into interactive realities. <br></br> With every project i aim to make the web faster, and smarter.
-
-          </p>
+            I'm a Web developer who turns ideas into interactive realities. <br></br> With every project i aim to make the web faster, and smarter.</p>
         </div>
 
         <div>
           <h3 className="text-lg font-semibold mb-3">SOCIAL</h3>
           <div className="flex gap-5 text-2xl">
-            <a href="#" className="hover:text-blue-500">
+          <a href="#" className="hover:text-blue-500">
               <FaLinkedin />
-            </a>
-            <a href="#" className="hover:text-gray-400">
+          </a>
+          <a href="#" className="hover:text-gray-400">
               <FaGithub />
-            </a>
+          </a>
            
           </div>
         </div>
@@ -29,7 +27,7 @@ const Footer = () => {
 
       <div className="border-t border-gray-700 mt-10 pt-6 text-center text-gray-400 text-sm">
         © Copyright {new Date().getFullYear()}. Made by{" "}
-        <span className="text-white font-semibold">Ram Maheshwari</span>
+        <span className="text-white font-semibold">Samvrutha Jayarajan</span>
       </div>
     </footer>
   );
