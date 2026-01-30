@@ -17,7 +17,6 @@ const Main = () => {
           With every project, I aim to make the web faster and smarter.
         </p>
 
-
         <div className="flex justify-center gap-6 mt-10 text-3xl text-gray-300">
           <a
           href="https://www.linkedin.com/in/samvrutha-jayarajan-b3497236a"target="_blank"rel="noopener noreferrer">

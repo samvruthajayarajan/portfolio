@@ -47,24 +47,28 @@ const Projects = () => {
           img: img,
           description:
           "Fragranzia is a sleek online perfume store that lets users explore and purchase premium fragrances effortlessly.",
+          link: "https://samvruthajayarajan.github.io/Fragranzia/"
         },
         {
           name: "Portfolio",
           img: img1,
           description:
           "A personal portfolio websites showcasing my skills , projects and journey as a web developer.",
+          link:"https://portfolio-cjpk.vercel.app/"
         },
         {
           name: "Weather App",
           img: img2,
           description:
-          "A modern weather application that fetches and displays real-time weather data for cities worldwide."
+          "A modern weather application that fetches and displays real-time weather data for cities worldwide.",
+          link:"https://weatherapp-azure-nine.vercel.app/"
         },
         {
           name: "Movie App",
           img: img3,
           description:
-          "A movie app that displays trending, popular, and search-based movies using real-time API data."
+          "A movie app that displays trending, popular, and search-based movies using real-time API data.",
+          link:"https://movie-app-six-iota-35.vercel.app/"
         }
         
       ].map((project, index) => (
@@ -72,6 +76,11 @@ const Projects = () => {
           <img src={project.img} alt={`${project.name} Preview`}className="rounded-lg mb-4"/>
           <h2 className="text-xl font-semibold mb-2">{project.name}</h2>
           <p className="text-gray-400 text-sm mb-4">{project.description}</p>
+           <a href={project.link} target="_blank" rel="noopener noreferrer" className="mt-auto" >
+              <button className="w-full mt-6 py-3 font-semibold rounded-xl bg-purple-600 text-white shadow-lg shadow-purple-500/40 hover:bg-purple-700 transition">
+                Live Demo
+              </button>
+            </a>
         </div>
       ))}
     </div>
