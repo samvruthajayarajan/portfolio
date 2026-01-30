@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import img from './images/fragranzia.png';
 import img1 from './images/portfolio.jpeg';
+import img2 from './images/img3.png';
+import img3 from './images/img4.png';
 import {FaCodeBranch,FaHtml5,FaCss3Alt,FaReact,FaNodeJs,FaGithub,FaBootstrap,} from "react-icons/fa";
 import { RiStackLine } from "react-icons/ri";
 import {SiJavascript,SiTailwindcss,SiExpress,SiMongodb,} from "react-icons/si";
@@ -38,7 +40,7 @@ const Projects = () => {
 
         <div className="mt-10">
   {activeTab === "projects" && (
-    <div className="flex flex-wrap justify-center gap-6">
+    <div className="flex flex-col sm:flex-row sm:overflow-x-auto gap-6 justify-center px-4">
       {[
         {
           name: "Fragranzia",
@@ -52,6 +54,18 @@ const Projects = () => {
           description:
           "A personal portfolio websites showcasing my skills , projects and journey as a web developer.",
         },
+        {
+          name: "Weather App",
+          img: img2,
+          description:
+          "A modern weather application that fetches and displays real-time weather data for cities worldwide."
+        },
+        {
+          name: "Movie App",
+          img: img3,
+          description:
+          "A movie app that displays trending, popular, and search-based movies using real-time API data."
+        }
         
       ].map((project, index) => (
         <div key={index} className="bg-gray-800 rounded-2xl shadow-lg p-6 w-full max-w-sm text-left hover:shadow-purple-500/30 transition-all duration-300">
