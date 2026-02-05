@@ -14,11 +14,7 @@ const About = () => {
         My passion lies in building efficient, scalable, and user-centric web
         applications. </p>
 
-      <div className="mb-14">
-        <a href ="Projects">
-      <button className="px-8 py-3 border border-purple-400 rounded-lg hover:bg-purple-800/30 font-semibold transition-all duration-200"> View Projects </button>
-      </a>
-      </div>
+      
     </section>
   );
 };

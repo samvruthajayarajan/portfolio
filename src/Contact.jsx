@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
   return (
      <>
-    <div id='contact' className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white py-16 px-6 w-screen flex flex-col justify-center items-center bg-no-repeat bg-cover text-center">
+    <div id='contact' className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black  py-16 px-6 w-screen flex flex-col justify-center items-center bg-no-repeat bg-cover text-center">
          <h1 className="font-semibold text-4xl text-slate-100">CONTACT</h1>
       <div className="mt-4">
         <h4 className="font-normal text-slate-100">
