@@ -6,7 +6,7 @@ import ParticleBackground from './ParticleBackground';
 
 function App() {
   return (
-    <div className="App bg-slate-950 min-h-screen text-white">
+    <div className="App bg-slate-950 min-h-screen text-white overflow-x-hidden">
       <ParticleBackground />
       <BrowserRouter>
       <Routes>

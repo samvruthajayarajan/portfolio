@@ -9,7 +9,7 @@ import Footer from './Footer'
 
 const Mainpage = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden w-full">
       <Navbar/>
         <Main/>
         <About/>
