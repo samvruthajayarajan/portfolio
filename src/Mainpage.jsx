@@ -1,9 +1,10 @@
 import React from 'react'
 import Main from './Main'
 import About from './About'
+import Experience from './Experience'
 import Navbar from './Navbar'
 import Projects from './Projects'
-import Contact from './Contact'
+import GetInTouch from './GetInTouch'
 import Footer from './Footer'
 
 const Mainpage = () => {
@@ -12,8 +13,9 @@ const Mainpage = () => {
       <Navbar/>
         <Main/>
         <About/>
+        <Experience/>
         <Projects/>
-        <Contact/>
+        <GetInTouch/>
         <Footer/>
     </div>
   )

@@ -1,36 +1,51 @@
 import React from "react";
-import { FaLinkedin, FaGithub} from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-10 px-6 md:px-20">
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-10">
-        <div>
-          <h2 className="text-xl font-bold mb-3">SAMVRUTHA JAYARAJAN</h2>
-          <p className="text-gray-400 max-w-md">
-            I'm a Web developer who turns ideas into interactive realities. <br></br> With every project i aim to make the web faster, and smarter.</p>
+    <footer className="bg-transparent text-white py-16 px-6 md:px-12 border-t border-white/5 relative overflow-hidden">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-10">
+        <div className="space-y-3">
+          <h2 className="text-xl md:text-2xl font-bold tracking-wider">
+            SAMVRUTHA <span className="bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">JAYARAJAN</span>
+          </h2>
+          <p className="text-slate-400 max-w-md text-sm md:text-base leading-relaxed">
+            I'm a Web Developer who turns ideas into interactive realities. <br />
+            With every project, I aim to make the web faster, smarter, and visually stunning.
+          </p>
         </div>
 
-        <div>
-          <h3 className="text-lg font-semibold mb-3">SOCIAL</h3>
-          <div className="flex gap-5 text-2xl">
-          <a href="https://www.linkedin.com/in/samvrutha-jayarajan-b3497236a" className="hover:text-blue-500">
+        <div className="space-y-3">
+          <h3 className="text-sm font-bold uppercase tracking-widest text-slate-400">
+            Social Links
+          </h3>
+          <div className="flex gap-4 text-2xl">
+            <a 
+              href="https://www.linkedin.com/in/samvrutha-jayarajan-b3497236a" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-400 hover:text-[#0077b5] transition-colors duration-300 transform hover:scale-110"
+            >
               <FaLinkedin />
-          </a>
-          <a href="https://github.com/samvruthajayarajan" className="hover:text-gray-400">
+            </a>
+            <a 
+              href="https://github.com/samvruthajayarajan" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-400 hover:text-white transition-colors duration-300 transform hover:scale-110"
+            >
               <FaGithub />
-          </a>
-           
+            </a>
           </div>
         </div>
       </div>
 
-      <div className="border-t border-gray-700 mt-10 pt-6 text-center text-gray-400 text-sm">
-        © Copyright {new Date().getFullYear()}. Made by{" "}
-        <span className="text-white font-semibold">Samvrutha Jayarajan</span>
+      <div className="max-w-7xl mx-auto border-t border-white/5 mt-12 pt-8 text-center text-slate-500 text-xs md:text-sm">
+        © Copyright {new Date().getFullYear()}. Made with 💜 by{" "}
+        <span className="text-slate-300 font-bold hover:text-white transition-colors">Samvrutha Jayarajan</span>
       </div>
     </footer>
   );
 };
 
-export default Footer;
+export default Footer;
